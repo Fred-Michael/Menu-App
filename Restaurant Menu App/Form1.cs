@@ -16,6 +16,5 @@ namespace Restaurant_Menu_App
         {
             InitializeComponent();
         }
-
     }
 }
