@@ -215,9 +215,9 @@
             this.label2.Font = new System.Drawing.Font("Papyrus", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(406, 36);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(331, 44);
+            this.label2.Size = new System.Drawing.Size(305, 44);
             this.label2.TabIndex = 3;
-            this.label2.Text = "delight in your taste buds...";
+            this.label2.Text = "delight your taste buds...";
             // 
             // button8
             // 
