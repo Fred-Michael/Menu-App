@@ -47,7 +47,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Palatino Linotype", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(80, 69);
+            this.label1.Location = new System.Drawing.Point(32, 69);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(306, 162);
@@ -68,9 +68,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Papyrus", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(111, 61);
+            this.label6.Location = new System.Drawing.Point(63, 61);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 54);
+            this.label6.Size = new System.Drawing.Size(82, 52);
             this.label6.TabIndex = 6;
             this.label6.Text = "only";
             // 
@@ -78,9 +78,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Papyrus", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(80, 212);
+            this.label7.Location = new System.Drawing.Point(32, 212);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(278, 54);
+            this.label7.Size = new System.Drawing.Size(272, 52);
             this.label7.TabIndex = 7;
             this.label7.Text = "Vegan shawarma";
             // 
@@ -89,7 +89,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Papyrus", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(85, 266);
+            this.label8.Location = new System.Drawing.Point(37, 266);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(302, 62);
             this.label8.TabIndex = 8;
@@ -98,7 +98,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(434, 69);
+            this.pictureBox2.Location = new System.Drawing.Point(386, 69);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(466, 318);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -109,18 +109,18 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Red;
             this.panel1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.panel1.Location = new System.Drawing.Point(710, -7);
+            this.panel1.Location = new System.Drawing.Point(662, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(58, 462);
+            this.panel1.Size = new System.Drawing.Size(58, 458);
             this.panel1.TabIndex = 11;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Red;
             this.panel3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.panel3.Location = new System.Drawing.Point(787, 0);
+            this.panel3.Location = new System.Drawing.Point(739, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(58, 455);
+            this.panel3.Size = new System.Drawing.Size(58, 457);
             this.panel3.TabIndex = 11;
             // 
             // button1
@@ -128,7 +128,7 @@
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(85, 331);
+            this.button1.Location = new System.Drawing.Point(37, 331);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(273, 56);
             this.button1.TabIndex = 12;
@@ -153,7 +153,7 @@
             this.ForeColor = System.Drawing.Color.Red;
             this.Margin = new System.Windows.Forms.Padding(21, 19, 21, 19);
             this.Name = "VeganDish";
-            this.Size = new System.Drawing.Size(995, 455);
+            this.Size = new System.Drawing.Size(883, 457);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
