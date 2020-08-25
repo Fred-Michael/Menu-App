@@ -43,6 +43,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.veganDish1 = new Restaurant_Menu_App.TopDeal();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -180,7 +181,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 58);
             this.button1.TabIndex = 3;
-            this.button1.Text = "     Menu";
+            this.button1.Text = "   Deals";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -235,12 +236,24 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "delight your taste buds...";
             // 
+            // veganDish1
+            // 
+            this.veganDish1.BackColor = System.Drawing.Color.LightGray;
+            this.veganDish1.Font = new System.Drawing.Font("Papyrus", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.veganDish1.ForeColor = System.Drawing.Color.Red;
+            this.veganDish1.Location = new System.Drawing.Point(212, 157);
+            this.veganDish1.Margin = new System.Windows.Forms.Padding(21, 19, 21, 19);
+            this.veganDish1.Name = "veganDish1";
+            this.veganDish1.Size = new System.Drawing.Size(818, 451);
+            this.veganDish1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(1043, 608);
+            this.Controls.Add(this.veganDish1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -276,6 +289,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+        private TopDeal veganDish1;
     }
 }
 

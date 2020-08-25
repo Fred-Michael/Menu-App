@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Restaurant_Menu_App
 {
-    public partial class VeganDish : UserControl
+    public partial class Menu_Gallery : UserControl
     {
-        public VeganDish()
+        public Menu_Gallery()
         {
             InitializeComponent();
         }
