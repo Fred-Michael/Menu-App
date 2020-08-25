@@ -75,10 +75,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Papyrus", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(125, 236);
+            this.label7.Font = new System.Drawing.Font("Papyrus", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(92, 234);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(231, 44);
+            this.label7.Size = new System.Drawing.Size(278, 54);
             this.label7.TabIndex = 7;
             this.label7.Text = "Vegan shawarma";
             // 
