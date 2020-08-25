@@ -85,12 +85,12 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Papyrus", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(128, 301);
+            this.label8.Font = new System.Drawing.Font("Papyrus", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(97, 297);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(202, 62);
+            this.label8.Size = new System.Drawing.Size(273, 62);
             this.label8.TabIndex = 8;
-            this.label8.Text = "with mushroom, tomato\r\nand spinach toppings";
+            this.label8.Text = "available in mushroom, tomato\r\nspinach and cabbage varieties";
             // 
             // pictureBox2
             // 
