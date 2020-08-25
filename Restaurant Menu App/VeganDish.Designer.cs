@@ -67,6 +67,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Papyrus", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(111, 61);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 54);
@@ -86,10 +87,11 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Papyrus", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.label8.Font = new System.Drawing.Font("Papyrus", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(85, 266);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(273, 62);
+            this.label8.Size = new System.Drawing.Size(302, 62);
             this.label8.TabIndex = 8;
             this.label8.Text = "available in mushroom, tomato\r\nspinach and cabbage varieties";
             // 
