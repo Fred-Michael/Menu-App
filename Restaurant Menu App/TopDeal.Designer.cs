@@ -126,6 +126,8 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(37, 331);
@@ -135,7 +137,7 @@
             this.button1.Text = "Place order";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // VeganDish
+            // TopDeal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(55F, 126F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,7 +154,7 @@
             this.Font = new System.Drawing.Font("Papyrus", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.Color.Red;
             this.Margin = new System.Windows.Forms.Padding(21, 19, 21, 19);
-            this.Name = "VeganDish";
+            this.Name = "TopDeal";
             this.Size = new System.Drawing.Size(883, 457);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
