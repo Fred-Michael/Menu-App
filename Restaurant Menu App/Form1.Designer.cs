@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
+            this.map_location = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.SidePanelIndicator = new System.Windows.Forms.Panel();
+            this.delivery = new System.Windows.Forms.Button();
+            this.collections = new System.Windows.Forms.Button();
+            this.specials = new System.Windows.Forms.Button();
+            this.eat_in = new System.Windows.Forms.Button();
+            this.deals = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -52,35 +52,35 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.button8);
+            this.panel1.Controls.Add(this.map_location);
             this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.SidePanelIndicator);
+            this.panel1.Controls.Add(this.delivery);
+            this.panel1.Controls.Add(this.collections);
+            this.panel1.Controls.Add(this.specials);
+            this.panel1.Controls.Add(this.eat_in);
+            this.panel1.Controls.Add(this.deals);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(212, 608);
             this.panel1.TabIndex = 0;
             // 
-            // button8
+            // map_location
             // 
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(24, 466);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(176, 58);
-            this.button8.TabIndex = 3;
-            this.button8.Text = "    Location";
-            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button8.UseVisualStyleBackColor = true;
+            this.map_location.FlatAppearance.BorderSize = 0;
+            this.map_location.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.map_location.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.map_location.ForeColor = System.Drawing.Color.White;
+            this.map_location.Image = ((System.Drawing.Image)(resources.GetObject("map_location.Image")));
+            this.map_location.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.map_location.Location = new System.Drawing.Point(24, 466);
+            this.map_location.Name = "map_location";
+            this.map_location.Size = new System.Drawing.Size(176, 58);
+            this.map_location.TabIndex = 3;
+            this.map_location.Text = "    Location";
+            this.map_location.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.map_location.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
@@ -97,93 +97,93 @@
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // panel4
+            // SidePanelIndicator
             // 
-            this.panel4.BackColor = System.Drawing.Color.Red;
-            this.panel4.Location = new System.Drawing.Point(-1, 124);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(14, 60);
-            this.panel4.TabIndex = 3;
+            this.SidePanelIndicator.BackColor = System.Drawing.Color.Red;
+            this.SidePanelIndicator.Location = new System.Drawing.Point(-1, 124);
+            this.SidePanelIndicator.Name = "SidePanelIndicator";
+            this.SidePanelIndicator.Size = new System.Drawing.Size(14, 60);
+            this.SidePanelIndicator.TabIndex = 3;
             // 
-            // button5
+            // delivery
             // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(24, 389);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(176, 58);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "    Delivery";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = true;
+            this.delivery.FlatAppearance.BorderSize = 0;
+            this.delivery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.delivery.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.delivery.ForeColor = System.Drawing.Color.White;
+            this.delivery.Image = ((System.Drawing.Image)(resources.GetObject("delivery.Image")));
+            this.delivery.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.delivery.Location = new System.Drawing.Point(24, 389);
+            this.delivery.Name = "delivery";
+            this.delivery.Size = new System.Drawing.Size(176, 58);
+            this.delivery.TabIndex = 3;
+            this.delivery.Text = "    Delivery";
+            this.delivery.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.delivery.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // collections
             // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(24, 325);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(187, 58);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "    Collections";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = true;
+            this.collections.FlatAppearance.BorderSize = 0;
+            this.collections.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.collections.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.collections.ForeColor = System.Drawing.Color.White;
+            this.collections.Image = ((System.Drawing.Image)(resources.GetObject("collections.Image")));
+            this.collections.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.collections.Location = new System.Drawing.Point(24, 325);
+            this.collections.Name = "collections";
+            this.collections.Size = new System.Drawing.Size(187, 58);
+            this.collections.TabIndex = 3;
+            this.collections.Text = "    Collections";
+            this.collections.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.collections.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // specials
             // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(24, 261);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(176, 58);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "    Specials";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = true;
+            this.specials.FlatAppearance.BorderSize = 0;
+            this.specials.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.specials.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.specials.ForeColor = System.Drawing.Color.White;
+            this.specials.Image = ((System.Drawing.Image)(resources.GetObject("specials.Image")));
+            this.specials.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.specials.Location = new System.Drawing.Point(24, 261);
+            this.specials.Name = "specials";
+            this.specials.Size = new System.Drawing.Size(176, 58);
+            this.specials.TabIndex = 3;
+            this.specials.Text = "    Specials";
+            this.specials.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.specials.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // eat_in
             // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(24, 197);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(176, 58);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "     Eat-In";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
+            this.eat_in.FlatAppearance.BorderSize = 0;
+            this.eat_in.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eat_in.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.eat_in.ForeColor = System.Drawing.Color.White;
+            this.eat_in.Image = ((System.Drawing.Image)(resources.GetObject("eat_in.Image")));
+            this.eat_in.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.eat_in.Location = new System.Drawing.Point(24, 197);
+            this.eat_in.Name = "eat_in";
+            this.eat_in.Size = new System.Drawing.Size(176, 58);
+            this.eat_in.TabIndex = 3;
+            this.eat_in.Text = "     Eat-In";
+            this.eat_in.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.eat_in.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // deals
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(24, 124);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(176, 58);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "   Deals";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.deals.FlatAppearance.BorderSize = 0;
+            this.deals.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deals.Font = new System.Drawing.Font("Papyrus", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.deals.ForeColor = System.Drawing.Color.White;
+            this.deals.Image = ((System.Drawing.Image)(resources.GetObject("deals.Image")));
+            this.deals.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.deals.Location = new System.Drawing.Point(24, 124);
+            this.deals.Name = "deals";
+            this.deals.Size = new System.Drawing.Size(176, 58);
+            this.deals.TabIndex = 3;
+            this.deals.Text = "   Deals";
+            this.deals.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.deals.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -279,16 +279,16 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button deals;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button eat_in;
+        private System.Windows.Forms.Button delivery;
+        private System.Windows.Forms.Button collections;
+        private System.Windows.Forms.Button specials;
+        private System.Windows.Forms.Panel SidePanelIndicator;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button map_location;
         private TopDeal veganDish1;
     }
 }

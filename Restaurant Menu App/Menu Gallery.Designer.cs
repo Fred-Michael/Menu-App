@@ -31,18 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_Gallery));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -72,6 +72,19 @@
             this.panel1.Size = new System.Drawing.Size(225, 289);
             this.panel1.TabIndex = 6;
             this.panel1.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(126, 225);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(86, 44);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "#1500";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -112,11 +125,24 @@
             this.panel4.Controls.Add(this.button3);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.pictureBox2);
-            this.panel4.Location = new System.Drawing.Point(309, 85);
+            this.panel4.Location = new System.Drawing.Point(293, 85);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(225, 289);
             this.panel4.TabIndex = 6;
             this.panel4.Visible = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Red;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(129, 225);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(86, 44);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "#1750";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -146,11 +172,24 @@
             this.panel5.Controls.Add(this.button2);
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Location = new System.Drawing.Point(595, 85);
+            this.panel5.Location = new System.Drawing.Point(567, 85);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(225, 289);
             this.panel5.TabIndex = 6;
             this.panel5.Visible = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(126, 225);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(86, 44);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "#3500";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -168,50 +207,11 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Papyrus", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(309, 17);
+            this.label4.Location = new System.Drawing.Point(305, 16);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(213, 48);
             this.label4.TabIndex = 7;
             this.label4.Text = "Our Selection";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(126, 225);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 44);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "#1500";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(126, 225);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 44);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "#3500";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(129, 225);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(86, 44);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "#1750";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // Menu_Gallery
             // 
@@ -223,7 +223,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Name = "Menu_Gallery";
-            this.Size = new System.Drawing.Size(838, 469);
+            this.Size = new System.Drawing.Size(811, 436);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
