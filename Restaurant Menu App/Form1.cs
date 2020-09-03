@@ -15,6 +15,23 @@ namespace Restaurant_Menu_App
         public Form1()
         {
             InitializeComponent();
+            SidePanelIndicator.Height = deals.Height;
+            SidePanelIndicator.Top = deals.Top;
+            veganDish1.BringToFront();
+        }
+
+        private void deals_Click(object sender, EventArgs e)
+        {
+            SidePanelIndicator.Height = deals.Height;
+            SidePanelIndicator.Top = deals.Top;
+            veganDish1.BringToFront();
+        }
+
+        private void specials_Click(object sender, EventArgs e)
+        {
+            SidePanelIndicator.Height = specials.Height;
+            SidePanelIndicator.Top = specials.Top;
+            menu_Gallery1.BringToFront();
         }
     }
 }

@@ -152,6 +152,7 @@
             this.specials.Text = "    Specials";
             this.specials.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.specials.UseVisualStyleBackColor = true;
+            this.specials.Click += new System.EventHandler(this.specials_Click);
             // 
             // eat_in
             // 
@@ -184,6 +185,7 @@
             this.deals.Text = "   Deals";
             this.deals.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.deals.UseVisualStyleBackColor = true;
+            this.deals.Click += new System.EventHandler(this.deals_Click);
             // 
             // panel2
             // 
