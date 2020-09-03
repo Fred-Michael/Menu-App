@@ -31,7 +31,7 @@ namespace Restaurant_Menu_App
         {
             SidePanelIndicator.Height = specials.Height;
             SidePanelIndicator.Top = specials.Top;
-            menu_Gallery1.BringToFront();
+            //menu_Gallery1.BringToFront();
         }
     }
 }
