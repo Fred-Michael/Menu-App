@@ -31,7 +31,7 @@ namespace Restaurant_Menu_App
         {
             SidePanelIndicator.Height = specials.Height;
             SidePanelIndicator.Top = specials.Top;
-            //menu_Gallery1.BringToFront();
+            menu_Gallery1.BringToFront();
         }
 
         private void eat_in_Click(object sender, EventArgs e)
@@ -60,7 +60,7 @@ namespace Restaurant_Menu_App
 
         private void button7_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("\t\tNeed help:\nVisit www.chicveganrestaurant.com/customer-care/support\n\t...for more information and assistance");
+            MessageBox.Show("\t\tNeed help?\nVisit www.chicveganrestaurant.com/customer-care/support\n\t...for more information and assistance");
         }
     }
 }
