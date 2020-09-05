@@ -36,12 +36,26 @@ namespace Restaurant_Menu_App
 
         private void eat_in_Click(object sender, EventArgs e)
         {
-
+            SidePanelIndicator.Height = eat_in.Height;
+            SidePanelIndicator.Top = eat_in.Top;
         }
 
         private void collections_Click(object sender, EventArgs e)
         {
+            SidePanelIndicator.Height = collections.Height;
+            SidePanelIndicator.Top = collections.Top;
+        }
 
+        private void delivery_Click(object sender, EventArgs e)
+        {
+            SidePanelIndicator.Height = delivery.Height;
+            SidePanelIndicator.Top = delivery.Top;
+        }
+
+        private void map_location_Click(object sender, EventArgs e)
+        {
+            SidePanelIndicator.Height = map_location.Height;
+            SidePanelIndicator.Top = map_location.Top;
         }
     }
 }

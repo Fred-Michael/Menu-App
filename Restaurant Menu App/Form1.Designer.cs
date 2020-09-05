@@ -81,6 +81,7 @@
             this.map_location.Text = "    Location";
             this.map_location.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.map_location.UseVisualStyleBackColor = true;
+            this.map_location.Click += new System.EventHandler(this.map_location_Click);
             // 
             // button7
             // 
@@ -120,6 +121,7 @@
             this.delivery.Text = "    Delivery";
             this.delivery.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.delivery.UseVisualStyleBackColor = true;
+            this.delivery.Click += new System.EventHandler(this.delivery_Click);
             // 
             // collections
             // 
