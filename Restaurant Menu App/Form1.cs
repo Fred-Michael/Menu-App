@@ -57,5 +57,10 @@ namespace Restaurant_Menu_App
             SidePanelIndicator.Height = map_location.Height;
             SidePanelIndicator.Top = map_location.Top;
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("\t\tNeed help:\nVisit www.chicveganrestaurant.com/customer-care/support\n\t...for more information and assistance");
+        }
     }
 }
