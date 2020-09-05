@@ -136,6 +136,7 @@
             this.collections.Text = "    Collections";
             this.collections.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.collections.UseVisualStyleBackColor = true;
+            this.collections.Click += new System.EventHandler(this.collections_Click);
             // 
             // specials
             // 
@@ -169,6 +170,7 @@
             this.eat_in.Text = "     Eat-In";
             this.eat_in.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.eat_in.UseVisualStyleBackColor = true;
+            this.eat_in.Click += new System.EventHandler(this.eat_in_Click);
             // 
             // deals
             // 

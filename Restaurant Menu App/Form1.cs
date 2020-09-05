@@ -33,5 +33,15 @@ namespace Restaurant_Menu_App
             SidePanelIndicator.Top = specials.Top;
             //menu_Gallery1.BringToFront();
         }
+
+        private void eat_in_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void collections_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
